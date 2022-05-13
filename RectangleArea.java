@@ -7,6 +7,8 @@ class RectangleArea {
       
       l = sc.nextDouble();
       w = sc.nextDouble();
+
+      sc.close();
       
       area = l * w;
       

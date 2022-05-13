@@ -9,6 +9,7 @@ class passOrNot {
       
       log ("Mark: ");
       mark = sc.nextDouble();
+      sc.close();
       
       if (mark <= 40) {
          return;
@@ -16,7 +17,6 @@ class passOrNot {
       
       log ("PASS");
       
-      sc.close();
    }
    
    static void log (String message) {

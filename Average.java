@@ -12,5 +12,7 @@ class Average {
       avg = (m1 + m2 + m3) / 3;
       
       System.out.print(avg);
+
+      sc.close();
    }
 }
